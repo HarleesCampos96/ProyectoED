@@ -259,7 +259,7 @@ public class DataBase {
      * @param nomLiga
      * @param dniEntre
      * @param dniPresi
-     * @throws SQLException 
+     * @throws SQLException excepción de la Base de Datos
      */
     public void modificarEquipo(String nombre, String localidad, String nomEst, int presu, String nomLiga, String dniEntre, String dniPresi) throws SQLException{
             PreparedStatement updateDATOS = conexion.prepareStatement(
