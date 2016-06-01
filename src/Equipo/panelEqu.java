@@ -27,7 +27,7 @@ public class panelEqu extends JPanel{
     JButton btnCreBa=new JButton("Crear o dar de Baja Equipo");
     JButton btnMos=new JButton("Mostrar Tabla de Equipos");
     JButton btnExp=new JButton("Exportar Datos de los Equipos");
-    JButton btnMod=new JButton("Modifficar Datos de los Equipos");
+    JButton btnMod=new JButton("Modificar Datos de los Equipos");
     
     public panelEqu(String cargo){
         this.setLayout(new GridLayout(4,1,0,5));
