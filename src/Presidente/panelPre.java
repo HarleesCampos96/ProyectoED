@@ -25,7 +25,7 @@ import javax.swing.*;
 public class panelPre extends JPanel{
     JButton btnCreBa=new JButton("Insertar o Dar de Baja Presidente");
     JButton btnMos=new JButton("Mostrar Tabla de Presidentes");
-    JButton btnExp=new JButton("Importar Datos de los Presidentes");
+    JButton btnExp=new JButton("Exportar Datos de los Presidentes");
     
     public panelPre(String cargo){
         this.setLayout(new GridLayout(3,1,0,5));
