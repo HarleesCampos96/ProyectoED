@@ -29,7 +29,8 @@ public class Inter_Login extends JFrame{
     JLabel lbl4=new JLabel("Usuario");
     JLabel lbl5=new JLabel("Contraseña");
     JTextField txtUsu=new JTextField();
-    JTextField txtCon=new JTextField();
+    //JTextField txtCon=new JTextField();
+    JPasswordField txtCon=new JPasswordField();
     JButton btnAcc=new JButton("Acceder");
     JButton btnReg=new JButton("Registrarse");
     JFrame frReg=new JFrame();

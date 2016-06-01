@@ -9,47 +9,19 @@ package Herencia;
  *
  * @author alexcampos
  */
-public class HerPresiEnt {
-    private String dni;
-    private String nombre;
-    private String apellido;
+public class HerPresiEnt extends Personas{
     private int edad;
     private int sueldo;
     
     public HerPresiEnt(String dni, String nombre, String apellido, int edad){
-        this.dni=dni;
-        this.nombre=nombre;
-        this.apellido=apellido;
+        super(dni,nombre,apellido);
         this.edad=edad;
     }
     
     public HerPresiEnt(String dni, String nombre, String apellido,int sueldo , int edad){
-        this.dni=dni;
-        this.nombre=nombre;
-        this.apellido=apellido;
+        super(dni,nombre,apellido);
         this.sueldo=sueldo;
         this.edad=edad;
-    }
-
-    /**
-     * @return the dni
-     */
-    public String getDni() {
-        return dni;
-    }
-
-    /**
-     * @return the nombre
-     */
-    public String getNombre() {
-        return nombre;
-    }
-
-    /**
-     * @return the apellido
-     */
-    public String getApellido() {
-        return apellido;
     }
 
     /**

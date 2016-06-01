@@ -42,7 +42,7 @@ public class JugImp {
         
         int x=0;
         while(x<list.size()){
-            data.insertarJugador(list.get(x).getDni(), list.get(x).getNomJug(), list.get(x).getApeJug(), Integer.parseInt(list.get(x).getSvalor())
+            data.insertarJugador(list.get(x).getDni(), list.get(x).getNombre(), list.get(x).getApellido(), Integer.parseInt(list.get(x).getSvalor())
                     , Integer.parseInt(list.get(x).getSedad()), list.get(x).getNomEqui());
             x++;
         }

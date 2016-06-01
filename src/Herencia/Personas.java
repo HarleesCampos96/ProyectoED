@@ -10,13 +10,34 @@ package Herencia;
  * @author alexcampos
  */
 public class Personas {
-    String dni;
-    String nombre;
-    String apellido;
+    private String dni;
+    private String nombre;
+    private String apellido;
     
     public Personas(String dni, String nombre, String apellido){
         this.dni=dni;
         this.nombre=nombre;
         this.apellido=apellido;
+    }
+
+    /**
+     * @return the dni
+     */
+    public String getDni() {
+        return dni;
+    }
+
+    /**
+     * @return the nombre
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * @return the apellido
+     */
+    public String getApellido() {
+        return apellido;
     }
 }

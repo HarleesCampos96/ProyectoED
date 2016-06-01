@@ -152,7 +152,7 @@ public class ExportGeneral extends JFrame{
         else if(tabBD.equals("jugador")){
             int x=0;
             while(x<lista5.size()){
-                texto=lista5.get(x).getDni() + ";\t" + lista5.get(x).getNomJug() + ";\t" + lista5.get(x).getApeJug() + ";\t" +
+                texto=lista5.get(x).getDni() + ";\t" + lista5.get(x).getNombre() + ";\t" + lista5.get(x).getApellido() + ";\t" +
                         String.valueOf(lista5.get(x).getValor()) + ";\t" + String.valueOf(lista5.get(x).getEdad()) + ";\t" + lista5.get(x).getNomEqui();
                 taExp.append(texto);
                 taExp.append(System.getProperty("line.separator"));

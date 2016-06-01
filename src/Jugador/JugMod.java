@@ -78,8 +78,8 @@ public class JugMod extends JFrame{
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                txtNomJug.setText(list.get(cbDNI.getSelectedIndex()).getNomJug());
-                txtApeJug.setText(list.get(cbDNI.getSelectedIndex()).getApeJug());
+                txtNomJug.setText(list.get(cbDNI.getSelectedIndex()).getNombre());
+                txtApeJug.setText(list.get(cbDNI.getSelectedIndex()).getApellido());
                 txtValor.setText(String.valueOf(list.get(cbDNI.getSelectedIndex()).getValor()));
                 txtEdad.setText(String.valueOf(list.get(cbDNI.getSelectedIndex()).getEdad()));
                 cbEquipo.setSelectedItem(list.get(cbDNI.getSelectedIndex()).getNomEqui());
